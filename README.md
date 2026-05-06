@@ -37,7 +37,7 @@ Armor(app)  # ✅ Done.
 ## Installation
 
 ```bash
-pip install fastapi-armor
+pip install fastapi-armor-lib
 ```
 
 ---
