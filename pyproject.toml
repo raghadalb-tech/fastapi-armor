@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-armor"
+version = "0.1.0"
+description = "Production-ready error handling, logging, and monitoring for FastAPI apps"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.100.0",
+    "sentry-sdk[fastapi]>=1.40.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx", "uvicorn"]
