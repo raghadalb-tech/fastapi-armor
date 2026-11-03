@@ -5,7 +5,8 @@
 [![Python](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI version](https://img.shields.io/pypi/v/fastapi-armor.svg)](https://pypi.org/project/fastapi-armor/)
+[![PyPI version](https://img.shields.io/pypi/v/fastapi-armor-lib.svg)](https://pypi.org/project/fastapi-armor-lib/)
+[![Tests](https://img.shields.io/badge/tests-4%20passed-brightgreen.svg)](#development)
 
 ---
 
@@ -39,6 +40,8 @@ Armor(app)  # ✅ Done.
 ```bash
 pip install fastapi-armor-lib
 ```
+
+> The package is published as **`fastapi-armor-lib`** on PyPI and imported as **`fastapi_armor`** in code.
 
 ---
 
@@ -125,3 +128,25 @@ pytest tests/ -v
 ```
 
 Test output:
+
+```
+tests/test_armor.py::test_armor_initializes_without_errors PASSED
+tests/test_armor.py::test_http_exception_returns_clean_json PASSED
+tests/test_armor.py::test_unhandled_exception_returns_internal_server_error PASSED
+tests/test_armor.py::test_validation_error_returns_validation_failed PASSED
+
+4 passed
+```
+
+---
+
+## License
+
+MIT
+
+---
+
+## Author
+
+**Raghad Al-Bishri** · Full-Stack Engineer
+[GitHub](https://github.com/raghadalb-tech) · [LinkedIn](https://www.linkedin.com/in/raghad-abdullah-53b503395) · [PyPI](https://pypi.org/project/fastapi-armor-lib/)
