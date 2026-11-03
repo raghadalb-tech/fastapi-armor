@@ -149,4 +149,4 @@ MIT
 ## Author
 
 **Raghad Al-Bishri** · Full-Stack Engineer
-[GitHub](https://github.com/raghadalb-tech) · [LinkedIn](https://www.linkedin.com/in/raghad-abdullah-53b503395) · [PyPI](https://pypi.org/project/fastapi-armor-lib/)
+[GitHub](https://github.com/raghadalb-tech) · [LinkedIn](https://www.linkedin.com/in/raghad-a-53b503395) · [PyPI](https://pypi.org/project/fastapi-armor-lib/)
